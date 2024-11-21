@@ -46,7 +46,7 @@ class SpeedTest {
   List<Map<String, dynamic>>  sortedDomainTimes = indxWithTime.map((a) => genObj(imgDomains[a.key], a.value)).toList();
 
   /* 單純 json 轉換
-    平常專案會引入sharePreference 存入 , 這邊僅示意存入result
+    平常專案會引入shared_preferenceswl套件 存入 , 這邊僅示意存入result
   */ 
    result =  jsonEncode(sortedDomainTimes);
 
